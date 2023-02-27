@@ -6,6 +6,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
         task6();
         task7();
         task8();
@@ -54,6 +55,18 @@ public class Main {
 
     public static void task4() {
         System.out.println("Задача4");
+        int wanted = 12_000_000;
+        double sum = 15_000;
+        int month = 1;
+        double monthlyPercent = 0.07;
+        while (sum <= wanted) {
+            sum = sum * (1 + monthlyPercent);
+                System.out.println("Месяц " + month + " , сумма накоплений равна " + sum + " рублей");
+            month++;
+            }
+        }
+    public static void task5() {
+        System.out.println("Задача5");
         int wanted = 12_000_000;
         double sum = 15_000;
         int month = 1;
